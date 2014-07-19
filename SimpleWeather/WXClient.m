@@ -18,7 +18,7 @@
 
 @implementation WXClient
 
-- (instancetype) init {
+- (id) init {
     self = [super init];
     if (self) {
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];

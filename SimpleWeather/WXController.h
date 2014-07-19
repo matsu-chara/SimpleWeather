@@ -10,4 +10,5 @@
 
 @interface WXController : UIViewController
 <UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
+
 @end

@@ -49,6 +49,7 @@
              @"humidity": @"main.humidity",
              @"temperature": @"main.temp",
              @"tempHigh": @"main.temp_max",
+             @"tempLow": @"main.temp_min",
              @"sunrise": @"sys.sunrise",
              @"sunset": @"sys.sunset",
              @"conditionDescription": @"weather.description",

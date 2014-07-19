@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 matsu_chara. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <ReactiveCocoa.h>
+@import Foundation;
 @import CoreLocation;
+#import <ReactiveCocoa.h>
 
 @interface WXClient : NSObject
 - (RACSignal *)fetchJSONFromURL:(NSURL *)url;
